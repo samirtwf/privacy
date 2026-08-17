@@ -15,4 +15,4 @@ Its URL will be `https://samirtwf.github.io/privacy/sos.html`
 
 ---
 
-Contact: Samirtwf@gmail.com
+Contact: samirtwf@gmail.com
