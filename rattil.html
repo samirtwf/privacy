@@ -66,7 +66,7 @@
   <header>
     <div class="badge"><span class="dot"></span> تطبيق رَتِّل · <code>com.hitec.rattil</code></div>
     <h1>سياسة الخصوصية</h1>
-    <p class="sub">آخر تحديث: 18 سبتمبر 2026</p>
+    <p class="sub">آخر تحديث: 20 سبتمبر 2026</p>
   </header>
 
   <div class="card">
@@ -101,28 +101,22 @@
   التطبيق لا يرفع هذا الملف إلى أي مكان، وما تفعله به بعد ذلك قرارك.</p>
 
   <h2>الاتصالات الشبكية</h2>
-  <p>يستعمل التطبيق الإنترنت في حالتين فقط:</p>
+  <p>يستعمل التطبيق الإنترنت في حالة واحدة فقط:</p>
   <ul>
-    <li><strong>تحديث بيانات القرآن.</strong> نص المصحف والتفسير والترجمة ومعاني الكلمات مقدَّمة من مؤسسة القرآن
-    (Quran Foundation)، وهي تشترط أن تبقى محدَّثة. لذلك يسأل التطبيق مرةً في الأسبوع، حين يكون الهاتف
-    متصلًا، عمّا نشرته المؤسسة من تصحيحات منذ آخر تحديث، ويطبّقها. يمرّ الطلب عبر خادم صغير للتطبيق على
-    Cloudflare يحمل مفاتيح الوصول إلى المؤسسة، ولا يحمل الطلب إلا علامةً تدلّ على نسخة البيانات التي عندك،
-    لا معرّفًا لك ولا لجهازك. لا يحفظ الخادم سجلًّا بالطلبات، وتتعامل Cloudflare مع عنوان IP كما تفعل أي شبكة
-    لتوصل الردّ، والمؤسسة تتلقّى الطلب من الخادم لا من هاتفك. وإن لم يتوفّر اتصال عمل التطبيق كالمعتاد بالبيانات
-    التي معه.</li>
     <li><strong>تنزيل التلاوات.</strong> حين تطلب تنزيل تلاوة قارئٍ لسورةٍ بعينها، يُنزَّل الملف من
     <strong>everyayah.com</strong>، وهو موقع مستقلّ لا يملكه المطوّر، وقد يسجّل عنوان IP الخاص بك ونوع جهازك
     كما تفعل أي خدمة على الإنترنت. لا يُرسل إليه التطبيق أي معرّف أو معلومة عنك غير طلب الملف نفسه.</li>
   </ul>
   <p>بعد التنزيل تُسمع التلاوة من هاتفك، ولا يبثّ التطبيق شيئًا من الشبكة. أما المصحف والتفسير والترجمة
-  ومحرّك التعرّف فكلها داخل التطبيق، وتعمل دون اتصال.</p>
+  ومحرّك التعرّف فكلها داخل التطبيق، وتعمل دون اتصال. والمصحف لا يُحدَّث من الشبكة أصلًا: هو ملف واحد
+  يُبنى قبل الإصدار ويُشحن معه، ولا يتغيّر على جهازك إلا بتحديث للتطبيق من المتجر.</p>
 
   <h2>الأذونات ولماذا نطلبها</h2>
   <div class="table">
   <table>
     <tr><th>الإذن</th><th>السبب</th></tr>
     <tr><td><code>RECORD_AUDIO</code></td><td>الاستماع إلى تلاوتك أثناء الجلسة أو البحث بالصوت، وتحليلها على الجهاز</td></tr>
-    <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>تنزيل تلاوات القرّاء عند طلبك، والتحقق من تحديثات بيانات القرآن</td></tr>
+    <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>تنزيل تلاوات القرّاء عند طلبك</td></tr>
     <tr><td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code><br><code>WAKE_LOCK</code></td><td>استمرار التلاوة والشاشة مطفأة، مع أزرار التحكّم في شريط الإشعارات</td></tr>
   </table>
   </div>
@@ -146,7 +140,7 @@
   <div class="en" lang="en">
     <header style="border:0;padding-top:0">
       <h1>Privacy Policy — Rattil</h1>
-      <p class="sub">Package <code>com.hitec.rattil</code> · Last updated: 18 September 2026</p>
+      <p class="sub">Package <code>com.hitec.rattil</code> · Last updated: 20 September 2026</p>
     </header>
 
     <div class="card">
@@ -185,16 +179,8 @@
     choose, and restore it later. The app never uploads that file anywhere; what you do with it is up to you.</p>
 
     <h2>Network connections</h2>
-    <p>The app uses the internet in two cases only:</p>
+    <p>The app uses the internet in one case only:</p>
     <ul>
-      <li><strong>Keeping the Quran data current.</strong> The Quran text, the tafsir, the translation and the
-      word-by-word meanings are provided by Quran Foundation, on the condition that they are kept up to date. So,
-      once a week and only when the phone is online, the app asks for the corrections Quran Foundation has
-      published since its last update, and applies them. The request goes through a small server of the app's
-      own on Cloudflare, which holds the credentials for Quran Foundation, and carries nothing but a marker of
-      the data version you have: no identifier for you or your device. The server keeps no record of requests;
-      Cloudflare handles your IP address as any network does to deliver the reply, and Quran Foundation receives
-      the request from the server, not from your phone. Offline, the app simply goes on with the data it has.</li>
       <li><strong>Downloading recitations.</strong> When you ask for a reciter's audio for a particular surah, the
       file is downloaded from <strong>everyayah.com</strong>, an independent website the developer does not own,
       which may log your IP address and device type as any internet service does. The app sends it no identifier
@@ -202,14 +188,15 @@
     </ul>
     <p>Once downloaded, the recitation plays from your phone; the app streams nothing from the network. The
     Quran text, the tafsir, the translation and the recognition engine all ship inside the app and work without
-    a connection.</p>
+    a connection. The mushaf is never updated over the network at all: it is a single file built before a
+    release and shipped with it, and it changes on your device only when you update the app from the store.</p>
 
     <h2>Permissions</h2>
     <div class="table">
     <table>
       <tr><th>Permission</th><th>Reason</th></tr>
       <tr><td><code>RECORD_AUDIO</code></td><td>Listen to your recitation during a session or a voice search, and analyse it on the device</td></tr>
-      <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>Download reciters' audio when you ask for it, and check for Quran data updates</td></tr>
+      <tr><td><code>INTERNET</code><br><code>ACCESS_NETWORK_STATE</code></td><td>Download reciters' audio when you ask for it</td></tr>
       <tr><td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code><br><code>WAKE_LOCK</code></td><td>Keep a recitation playing with the screen off, with controls in the notification shade</td></tr>
     </table>
     </div>
