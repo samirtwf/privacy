@@ -5,6 +5,7 @@ This repository contains **privacy policy pages only**. It contains no source co
 | App | Package | Page |
 |---|---|---|
 | Radio | `com.hitec.radio` | [index.html](index.html) |
+| CallMe | `com.hitec.callme` | [callme.html](callme.html) |
 
 Published at: **https://samirtwf.github.io/privacy/**
 
