@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>حذف الحساب — CallMe | Delete account — CallMe</title>
+<meta name="description" content="طريقة حذف حسابك وبياناتك في تطبيق CallMe (com.hitec.callme).">
+<style>
+  :root{
+    --bg:#0b0b18; --panel:#14142b; --line:#2a2a50;
+    --text:#ededfa; --muted:#9a9abf; --cyan:#7ce7ff; --violet:#b08bff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:linear-gradient(180deg,#10102a,#0b0b18 60%,#0b0b18);
+    color:var(--text); font-family:"Segoe UI",Tahoma,system-ui,sans-serif;
+    line-height:1.9; padding:0 16px 64px;
+  }
+  .wrap{max-width:820px;margin:0 auto}
+  header{text-align:center;padding:56px 0 28px;border-bottom:1px solid var(--line)}
+  .badge{
+    display:inline-flex;align-items:center;gap:10px;
+    border:1px solid var(--line);border-radius:999px;padding:8px 18px;
+    color:var(--muted);font-size:14px;margin-bottom:18px;
+  }
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--cyan)}
+  h1{font-size:30px;margin:0 0 8px;font-weight:700}
+  .sub{color:var(--muted);font-size:15px;margin:0}
+  h2{
+    font-size:20px;margin:40px 0 12px;color:var(--cyan);
+    border-inline-start:3px solid var(--violet);padding-inline-start:12px;
+  }
+  p,li{color:#d7d7ea;font-size:15.5px}
+  ul{padding-inline-start:22px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:16px;padding:18px 22px;margin:22px 0;
+  }
+  .card strong{color:var(--cyan)}
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:10px 12px;text-align:start}
+  th{background:#191936;color:var(--text);font-weight:600}
+  code{
+    background:#191936;border:1px solid var(--line);border-radius:6px;
+    padding:2px 7px;font-size:13.5px;color:var(--cyan);
+    direction:ltr;display:inline-block;unicode-bidi:isolate;
+  }
+  a{color:var(--cyan)}
+  hr{border:0;border-top:1px solid var(--line);margin:56px 0}
+  .en{direction:ltr;text-align:left}
+  footer{color:var(--muted);font-size:13.5px;text-align:center;margin-top:48px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="badge"><span class="dot"></span> تطبيق CallMe · <code>com.hitec.callme</code> · المطوّر: Samir Shora</div>
+    <h1>حذف الحساب والبيانات</h1>
+    <p class="sub">آخر تحديث: 30 سبتمبر 2026</p>
+  </header>
+
+  <div class="card">
+    <p style="margin:0"><strong>مهم:</strong> CallMe لا يملك خادماً خاصاً ولا يحتفظ بحسابك.
+    حساب SIP الذي تسجّل الدخول به موجود لدى مزوّد SIP (مثل <code>sip.linphone.org</code>)، ولذلك يُحذف من عنده.</p>
+  </div>
+
+  <h2>خطوات حذف حساب sip.linphone.org</h2>
+  <ol>
+    <li>افتح <a href="https://subscribe.linphone.org">subscribe.linphone.org</a> وسجّل الدخول باسم المستخدم وكلمة المرور.</li>
+    <li>ادخل إلى صفحة حسابك واختر حذف الحساب (Delete account) ثم أكّد.</li>
+    <li>إن لم تتمكن من ذلك، راسل مزوّد الخدمة على <a href="mailto:gdpr@belledonne-communications.com">gdpr@belledonne-communications.com</a> واطلب حذف الحساب.</li>
+  </ol>
+  <p>إذا كان حسابك لدى مزوّد SIP آخر، فاتبع طريقة الحذف الخاصة به.</p>
+
+  <h2>البيانات التي تُحذف</h2>
+  <ul>
+    <li>لدى مزوّد SIP: اسم المستخدم وكلمة المرور والبريد المرتبط بالحساب، وأي رسائل لم تُسلَّم بعد. مدة الاحتفاظ بعد الحذف تحددها سياسة المزوّد.</li>
+    <li>على جهازك: بيانات الحساب وجهات الاتصال وسجلّ المكالمات والرسائل. احذفها فوراً من «تسجيل الخروج» في إعدادات الحساب ثم مسح بيانات التطبيق، أو بإلغاء تثبيته. تسجيلات المكالمات في مجلد Music تحذفها بنفسك.</li>
+  </ul>
+  <p>المطوّر لا يحتفظ بأي بيانات عنك، فلا يوجد ما يُحذف لديه.</p>
+
+  <h2>التواصل</h2>
+  <p>لأي مساعدة: <a href="mailto:samirtwf@gmail.com">samirtwf@gmail.com</a></p>
+
+  <hr>
+
+  <div class="en">
+    <header style="border:0;padding-top:0">
+      <h1>Delete your account — CallMe</h1>
+      <p class="sub">Package <code>com.hitec.callme</code> · Developer: Samir Shora · Last updated: 30 September 2026</p>
+    </header>
+
+    <div class="card">
+      <p style="margin:0"><strong>Important:</strong> CallMe has no server of its own and does not hold your account.
+      The SIP account you sign in with lives at your SIP provider (for example <code>sip.linphone.org</code>), so it is deleted there.</p>
+    </div>
+
+    <h2>Steps to delete a sip.linphone.org account</h2>
+    <ol>
+      <li>Open <a href="https://subscribe.linphone.org">subscribe.linphone.org</a> and sign in with your username and password.</li>
+      <li>Go to your account page, choose <strong>Delete account</strong> and confirm.</li>
+      <li>If you cannot, email the provider at <a href="mailto:gdpr@belledonne-communications.com">gdpr@belledonne-communications.com</a> and ask for your account to be deleted.</li>
+    </ol>
+    <p>If your account is with another SIP provider, follow that provider's deletion process.</p>
+
+    <h2>Data that is deleted</h2>
+    <ul>
+      <li>At the SIP provider: your username, password, the email linked to the account, and any undelivered messages. Retention after deletion follows the provider's policy.</li>
+      <li>On your device: account details, contacts, call history and messages. Remove them right away with <em>Log out</em> in account settings and then clearing the app data, or by uninstalling the app. Call recordings in the Music folder are deleted by you.</li>
+    </ul>
+    <p>The developer keeps no data about you, so there is nothing to delete on the developer's side.</p>
+
+    <h2>Contact</h2>
+    <p>For help: <a href="mailto:samirtwf@gmail.com">samirtwf@gmail.com</a></p>
+  </div>
+
+  <footer>
+    Samir Shora · Hitec
+  </footer>
+
+</div>
+</body>
+</html>
